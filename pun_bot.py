@@ -21,5 +21,5 @@ class PunBot(Plugin):
         event.msg.reply(unescape(msg))
 
     @Plugin.command('punsource!')
-    def on_echo_command(self, event):
+    def on_source_command(self, event):
         event.msg.reply("https://www.punoftheday.com/")
